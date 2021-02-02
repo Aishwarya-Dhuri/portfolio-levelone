@@ -1,0 +1,440 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="description" content="">
+    <meta name="author" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Home</title>
+
+<link href="Css/reset.css" rel="stylesheet" type="text/css">
+<link href="Css/resortsyle.css" rel="stylesheet" type="text/css"><!-- Main Stylesheet-->
+<link href="Css/respresort.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="Css/menustyle.css"><!--Responsive Navigation Stylesheet-->
+<link href="Css/mystyle.css" rel="stylesheet" type="text/css"><!--Responsive Navigation Stylesheet-->
+
+<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"><!--Font awesome Link-->
+<link rel="shortcut icon" type="image/x-icon" href="Images/sv.png"><!--Fav icon link-->
+    <!--Banner Slider links-->
+
+
+
+
+
+    <!--Banner links ends-->
+
+<!--Circle Hover Stylesheets and script-->
+
+<link href="Circlecss/circle.css" rel="stylesheet" type="text/css">
+
+<!--Circle Hover End-->
+
+
+<!--Responsive navigation Script-->
+<script src="js/jquery2.js"></script>
+
+    <script src="js/menu.js"></script>
+<!--Responsive Navigation close-->
+
+</head>
+
+<body>
+<div id="wrapper">
+
+	<div class="mydiv">
+  <header>
+<nav id='cssmenu'>
+
+<div class="logo"><a href="index.html"><img src="Images/logo2.png"> </a></div>
+
+<div id="head-mobile"></div>
+<div class="button"></div>
+<ul>
+<li  class='active'><a href='index.html'>HOME</a></li>
+<li><a href='about.html'>ABOUT</a></li>
+<li><a href='services.html'>SERVICES</a></li>
+<li><a href='#'>EXPLORE</a>
+   <ul>
+      <li><a href='location.html'>How to Reach</a>
+       
+      </li>
+      <li><a href='spots.html'>Why Visit Tarkarli</a>
+         
+      </li>
+   </ul>
+</li>
+
+
+
+<li><a href='contact.html'>CONTACT</a></li>
+</ul>
+
+</nav>
+
+</header>
+</div>
+  	
+
+
+     <!--Banner Slider links-->
+
+   <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-22.2.10.mini.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+                $AutoPlay: true,
+                $SlideDuration: 800,
+                $SlideEasing: $Jease$.$OutQuint,
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$
+                },
+                $BulletNavigatorOptions: {
+                    $Class: $JssorBulletNavigator$
+                }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+    <style>
+        /* jssor slider loading skin oval css */
+
+        .jssorl-oval img {
+            animation-name: jssorl-oval;
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-oval {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        .jssora22l.jssora22lds      (disabled)
+        .jssora22r.jssora22rds      (disabled)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+    </style>
+    <div id="bannerbox">
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1500px;height:600px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-oval" style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;" src="img/oval.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1500px;height:600px;overflow:hidden;">
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+            <div>
+             <a href="about.html"><img data-u="image" src="Images\Bannerimg\resortbanner1.jpg"/></a>
+            </div>
+            <div>
+                <a href="services.html"><img data-u="image" src="Images\Bannerimg\servicesbannerresort.jpg"/></a>
+                  <!--<a href="services.html"><img data-u="image" src="Images\Bannerimg\2small.jpg" class="bphone" alt="smallbanner2"/></a>-->
+            </div>
+            <div>
+                <a href="spots.html"><img data-u="image" src="Images\Bannerimg\subadivingbanner.jpg"/></a>
+                  <!--<a href="services.html"><img data-u="image" src="Images\Bannerimg\3small.jpg" class="cphone" alt="smallbanner3"/></a>-->
+            </div>
+            <div>
+                <a href="spots.html"><img data-u="image" src="Images\Bannerimg\foodbanner.jpg"/></a>
+                 <!-- <a href="services.html"><img data-u="image" src="img\Images\Bannerimg\3small.jpg" class="dphone" alt="smallbanner4"/></a>-->
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+    <!-- #endregion Jssor Slider End -->
+
+    </div>
+    <!--Banner links ends-->  
+
+<div class="bannerbox2">
+               <a href="about.html"><img data-u="image" src="Images\Bannerimg\2small.jpg"  alt="smallbanner1"/></a>
+
+
+</div>
+
+<article>
+<div class="aboutbox">
+	<h1 class="headingstyle1"> Welcome to Sea View Resort,Tarkarli</h1>
+	<div class="linebox"><img src="Images/line2.png" alt="line" title="line"></div>
+	<p >
+		The Sea View hotel, located in the very heart of Tarkarli is a welcoming retreat for either people traveling across the country or businessmen, visiting  Malvan for holidays.
+
+Here, we always make sure that you will have any of your needs satisfied, be it a comfortable hotel room and a diligent room service, a dining and lounge zone or any additional amenities a traveller might want…
+	<br /><br /><a href="about.html">Know More</a></p>
+	
+</div>
+</article>
+
+<section>
+	<div class="servicesbox">
+		<h1 class="headingstyle1">Services</h1>
+			<div class="linebox"><img src="Images/line2.png" alt="line" title="line"></div>
+	
+		<div class="service1">
+			<h2>Accomodation</h2>
+				<img src="Images/hotel.jpg" alt="hotel" title="hotel">
+				<p>
+					COMFORTABLE STANDARD ROOMS with Room service facility.<br /> 
+					<a href="services.html">Know More</a>
+				</p>
+
+			</div>
+		<div class="service1">
+			<h2>Sea View Restaurant</h2>
+				<img src="Images/restaurant.jpg" alt="Restaurant" title="Restaurant">
+				<p>
+					Delicious MALVANI VEG / NON-VEG Food facility available in our restaurant <br />
+					<a href="services.html">Know More</a>
+				</p>
+			</div>
+</div>
+
+
+</section>
+
+
+<div class="features">
+    <h2 class="othrfeatureheading">Other Features</h2>
+	<div class="feature1">
+		<img src="Images/roomservicenew1.png" alt="roomservice" title="roomservice">
+		<h2 class="headingstyle2"> Room Service</h2>
+		<p class="parastyle1">
+			Enjoy a full-blown room service ,enhanced by order of food and beverages
+		</p>
+	</div>
+	<div class="feature2">
+		<img src="Images/parkingnew.jpg" alt="parking" title="parking">
+		<h2 class="headingstyle2">Free Parking</h2>
+		<p class="parastyle1">
+			Book a suite and the parking lot will be yours ,without any additional charge
+		</p>
+	</div>
+	<div class="feature3">
+		<img src="Images/checkinnew.png" alt="checkin" title="checkin">
+		<h2 class="headingstyle2">Check-in,Check-out</h2>
+		<p class="parastyle1">
+			More flexible than ever, Made with our guests comfort and timing in our mind
+		</p>
+	</div>
+</div>
+
+<div class="gallery">
+	<h1 class="headingstyle1">Gallery</h1>
+	<div class="linebox"><img src="Images/line2.png" alt="line" title="line"></div>
+
+		<div class="gallery1">
+			<div class="gal1">
+				<img src="Images/1.jpg" alt="pic1" title="pic1">
+                <h2>Coconut tree Garden</h2>
+			</div>
+			
+			<div class="gal2">
+				<img src="Images/2.jpg" alt="pic2" title="pic2">
+                <h2>Front View</h2>
+			</div>
+		</div>
+		<div class="gallery1">
+			<div class="gal1">
+				<img src="Images/3.jpg" alt="pic3" title="pic3">
+                <h2>Space Area in front of cottages</h2>
+			</div>
+			
+			<div class="gal2">
+				<img src="Images/4.jpg" alt="pic4" title="pic4">
+                <h2>Back View</h2>
+			</div>
+		</div>
+    <br />
+    <br />
+    <a href="about.html">Know More</a>
+</div>
+
+<div class="why">
+	<h1 class="headingstyle1">Why Visit Tarkarli?</h1>
+
+	<div class="linebox"><img src="Images/line2.png" alt="line" title="line"></div>
+	<div class="my">
+	<div class="container">
+  <img src="Images/Circle/food.png" alt="food" class="image" style="width:100%">
+  <div class="middle">
+  		<a href="spots.html">
+    		<div class="text"><p>Malvani Food <br><u>View More</u></p>
+    
+    </div>
+    </a>
+  </div>
+</div>
+<div class="container">
+  <img src="Images/Circle/touristplace.png" alt="food" class="image" style="width:100%">
+  <div class="middle">
+  		<a href="spots.html">
+    		<div class="text">
+                <p>Tourist Place<br><u>View More</u></p>
+    
+    </div>
+    </a>
+  </div>
+</div>
+<div class="container">
+  <img src="Images/Circle/watersports.png" alt="food" class="image" style="width:100%">
+  <div class="middle">
+  		<a href="spots.html">
+    		<div class="text">
+                <p>Water Sports<br><u>View More</u></p>
+    
+    </div>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+
+
+<footer>
+
+<div class="bottombox">
+	<div class="bottomleft">
+    
+    	<h2><span style="font-size:0.6em;margin-right:3%;"><i class="fa fa-link fa-2x" aria-hidden="true"></i></span>QUICK LINKS</h2>
+    	<p><a href="index.html">Home</a><br>
+   		<a href="about.html">About us</a><br>
+    	<a href="services.html">Services</a><br>
+     	<a href="spots.html">Explore Tarkarli</a><br>
+	<a href="location.html">Our Location</a><br>
+      	<a href="contact.html">Contact Us</a><br></p>
+    </div>
+    <div class="bottommiddle">
+    	<h2><span style="font-size:0.6em;margin-right:2%;"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></span>OUR LOCATION</h2>
+       <p> Post Tarkarli,<br>
+        (Near Tarkarli Beach),<br>
+        Tal. Malvan,<br>
+        Dist. Sindhudurga<br></p>
+    </div>
+	<div class="bottomright">
+   
+    	<h2> <span style="font-size:0.6em;margin-right:2%;"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></span>Email</h2>
+       <p>seaviewtarkarli@gmail.com
+    </div>
+    
+    <div class="copyrightbox">
+    Copyright&copy; 2009 Tarkarli resort.All Rights Reserved.
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+<!--Back to top Button Script-->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+<!--Back to top Button Script End-->
+
+
+</div>
+
+</footer>
+
+</div><!--End of wrapper1-->
+
+</body>
+</html>

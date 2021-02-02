@@ -1,0 +1,185 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.container {
+    position: relative;
+    width:22%;
+	float:left;
+	margin-left:2%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #009688;
+color: white;
+font-size: 16px;
+padding: 60px 76px;
+border-radius: 100px;
+font-family: Nunito;
+text-align:center;
+}
+@media only screen and (max-width:1024px) {
+    .my {
+    width: 80%;
+    margin: 1% 0 0 12%;
+}
+    .container {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+}
+@media only screen and (max-width:980px) {
+    .my {
+    width: 80%;
+    margin: 1% 0 0 9%;
+}
+    .container {
+    position: relative;
+    width: 31%;
+    float: left;
+    margin-left: 2%;
+}
+}
+@media only screen and (max-width:900px)
+{
+	.my {
+    width: 80%;
+    margin: 1% 0 0 10%;
+}
+.container {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+.text {
+	padding: 47px 62px;
+}
+}
+@media only screen and (max-width:876px)
+{
+.my {
+    width: 80%;
+    margin: 1% 0 0 10%;
+}
+.container {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+.text {
+padding: 48px 64px;
+}
+}
+@media only screen and (max-width:800px)
+{
+	.container {
+    position: relative;
+    width: 30%;
+}
+.text {
+    padding: 43px 60px;
+}
+}
+@media only screen and (max-width:720px) {
+    .text {
+    padding: 30px 48px;
+}
+}
+@media only screen and (max-width:700px)
+{
+	.container {
+    position: relative;
+    width: 42%;
+    margin-left: 31%;
+}
+.service1 {
+    width: 60%;
+    float: left;
+    margin-left: 19%;
+}
+}
+
+@media only screen and (max-width:600px)
+{
+	.container {
+    position: relative;
+    width: 51%;
+    margin-left: 28%;
+    margin-bottom: 3%;
+}
+.text {
+    padding: 63px 83px;
+}
+}
+@media only screen and (max-width:528px) {
+    .container {
+        position: relative;
+        width: 66%;
+        margin-left: 21%;
+    }
+}
+@media only screen and (max-width:500px) {
+    .container {
+    position: relative;
+    width: 65%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+    .text {
+    padding: 64px 78px;
+}
+}
+@media only screen and (max-width:480px)
+{
+.container {
+    position: relative;
+    width: 73%;
+    margin-left: 14%;
+    margin-bottom: 3%;
+	margin-top: 2%;
+}
+.text {
+    padding: 75px 81px;
+}
+}
+@media only screen and (max-width:400px)
+{
+	.text {
+    padding: 62px 81px;
+}
+}
+@media only screen and (max-width:360px) {
+    .text {
+    padding: 59px 72px;
+}
+}

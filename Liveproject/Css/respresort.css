@@ -1,0 +1,1778 @@
+@media only screen and (max-width:1400px)
+{
+	.abtpgcontent p {
+		
+		line-height: 37px;
+	}
+	.amenities p
+	{
+		line-height: 37px;
+	}
+	.whatoffer p {
+		line-height: 37px;
+	}
+    #bannerbox {
+    margin-top: 6%;
+    }
+    .service1 p {
+    padding-left: 6%;
+padding-right: 6%;
+    }
+}
+@media only screen and (max-width:1280px)
+{
+	/* CONTACT PAGE*/
+	.logo
+	{
+		margin-right: 43%;
+	}
+
+	
+
+	.gal1
+	{
+		margin-left:15%;
+	}
+	
+}
+@media only screen and (max-width:1200px)
+{
+	.aboutbox p {
+    		margin: 1% 25% 3% 25%;
+	}
+	.gal1 {
+    		margin-left: 16%;
+	}
+	.gal2 {
+    		 margin-left: 3%;
+	}
+	/* SPOTS PAGE*/
+	.scuba {
+    		width: 29.8%;
+		padding-bottom: 3%;
+	}
+	/* CONTACT PAGE*/
+	.logo
+	{
+		width:18%;
+		margin-right: 41%;
+	}
+	.txtstyle {
+   		 width: 80.3%;
+	}
+	
+}
+
+@media only screen and (max-width:1037px)
+{	
+	.scuba {
+    		width: 29.8%;
+		padding-bottom: 3%;
+	}
+	.gal1 {
+    		margin-left: 11%;
+	}
+	.gal2{
+		margin-left: 9%;
+	}
+	/*HEADER*/
+	.logo {
+	    width:18%;
+    	margin-right: 31%;
+	    margin-bottom: -1%;
+	}
+}
+@media only screen and (max-width:1024px)
+{	
+	.scuba {
+    		width: 29.8%;
+            float:left;
+		padding-bottom: 3%;
+	}
+    .linebox {
+        width: 45%;
+        margin-left: 38%;
+    }
+	.watersports {
+    		width: 29.8%;
+	}
+	.boating {
+		width: 29.8%;
+	}
+    .naturebox {
+    
+        margin-bottom:2%;
+    }
+		.star1 {
+			margin-left: 4%;
+		}
+		.bottombox h2 {
+    			font-size: 1.4em;
+		}
+		.nature1 {
+    			width: 27%;
+    			float: left;
+   		 	margin-left: 4%;
+		}
+		.mapsbox {
+    			width: 82%;
+    			float: left;
+   			margin-left: 9%;
+		}
+		.fa-2x {
+    			font-size: 1.4em;
+		}
+		.photo1 {
+  			 width: 43%;
+			float: left;
+			margin-left: 5%;
+			margin-top: 2%;
+		}	
+		.photo2 {
+    			width: 43%;
+    			float: left;
+    			margin-left: -2%;
+    			margin-right: 0%;
+		}
+		.breakfastmeal {
+   			 width: 29%;
+    			float: left;
+    			margin-left: 4%;
+		}
+		.vegmeal {
+   			 width: 29%;
+    			float: left;
+		}
+		.nonvegmeal {
+   			 width: 29%;
+    			float: left;
+		}
+    .abtcontent2 {
+        width: 39%;
+        float: left;
+    }
+		.txtstyle {
+    			width: 94%;
+    			height: 40px;
+		}
+	
+        /*Location page*/
+    .iconbox1 {
+        margin-left: 16%;
+        margin-right: 4%;
+    }
+    otherbanner {
+    width: 100%;
+    margin-top: 8%;
+}
+    .serv1imgbox {
+    width: 42.5%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+    .serv2imgbox {
+    width: 42.5%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+   .serv1content p {
+    
+    font-size: 1.2em;
+}
+   .serv2content p {
+    
+    font-size: 1.2em;
+}
+}
+@media only screen and (max-width:980px)
+{
+	.mapsbox {
+    		width: 81%;
+    		float: left;
+		margin-left: 9%;
+		}
+	.gal1 {
+    		margin-left: 10%;
+	}
+	.gal2{
+		margin-left: 9%;
+	}
+	.bottombox h2 {
+    		font-size: 1.4em;
+	}
+	
+	.txtstyle {
+    		width: 98.3%
+	}
+        .scuba {
+    		width: 29.8%;
+            float:left;
+		padding-bottom: 0%;
+	}
+    .other1imgbox {
+        width: 44%;
+        float: left;
+    }
+    .other2imgbox {
+        width: 44%;
+        float: left;
+    }
+    .nature1 img {
+    width:100%;
+    }
+    .serv1imgbox {
+    width: 40%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+    .serv1content {
+    width: 48%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+    .serv2imgbox {
+    width: 40%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+    .serv2content {
+    width: 48%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+}
+@media only screen and (max-width:915px) {
+    .contactinfo {
+    width: 41%;
+    float: right;
+}
+@media only screen and (max-width:911px) {
+    .contactinfo {
+        width: 41%;
+        float: right;
+    }
+
+        .contactinfo p {
+            line-height: 39px;
+        }
+}
+@media only screen and (max-width:900px) {
+    .linebox {
+        width: 45%;
+        margin-left: 38%;
+    }
+    .otherbanner {
+    width: 100%;
+    margin-top: 9%;
+}
+    .abtpg {
+        margin-top: 0%;
+    }
+
+   
+
+    .contactinfo {
+        width: 42%;
+        float: right;
+       
+    }
+    .btnstyle {
+        width: 32%;
+    }
+    .photo1 {
+    width: 48%;
+    float: left;
+    margin-left: -2%;
+    margin-top: 2%;
+}
+    .photo2 {
+    width: 48%;
+    float: left;
+    margin-left: -2%;
+    margin-top: 2%;
+}
+    .photo3full {
+        width: 90%;
+        float: left;
+        margin-left: -3%;
+    }
+    .amenities1 {
+    margin-left: -11%;
+    }
+     .amenities2 {
+         width: 67%;
+         float:left;
+    
+    }
+
+    .txtstyle {
+        width: 108%;
+    }
+
+    .gal1 {
+        margin-left: 5%;
+    }
+
+    .gal2 {
+        margin-left: 13%;
+    }
+
+    .service1 p {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .bottommiddle {
+        width: 22%;
+        float: left;
+        margin-left: 8%;
+    }
+
+    .bottomleft {
+        margin-left: 5%;
+    }
+
+    .mapsbox {
+        width: 89%;
+        float: left;
+        margin-left: 5%;
+    }
+
+    .contactinfo p {
+        font-family: Nunito;
+        font-size: 1.1em;
+    }
+
+    .serv1content p {
+        font-size: 1.08em;
+    }
+
+    .serv2content p {
+        font-size: 1.08em;
+    }
+
+    .tariffcontent p {
+        font-size: 1.08em;
+    }
+
+    .mealparastyle {
+        
+        font-size: 1.08em;
+    }
+    td {
+        
+        font-size: 1.08em;
+    }
+	.gal1 {
+    margin-left: 5%;
+    width: 42%;
+}
+.gal2 {
+    margin-left: 5%;
+    width: 42%;
+}
+.service1 {
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+}
+}
+    @media only screen and (max-width:886px) {
+        .contactinfo {
+    width: 43%;
+    float: right;
+}
+        textarea {
+    width: 108%;
+}
+    }
+@media only screen and (max-width:876px)
+{
+	.service1 h2 {
+	font-size: 1.8em;
+	}
+}
+@media only screen and (max-width:864px)
+{
+	.service1 h2 {
+	font-size: 1.6em;
+	}
+}
+@media only screen and (max-width:835px) {
+    .contactinfo {
+    width: 45%;
+    float: right;
+}
+    }
+@media only screen and (max-width:838px) {
+    .contactinfo {
+    width: 45%;
+    float: right;
+}
+    }
+@media only screen and (max-width:827px) {
+        .contactinfo h1 {
+            margin-top: 2%;
+            font-size: 2.4em;
+        }
+
+        .enqirybox h1 {
+        font-size: 2.4em;
+        }
+
+}
+@media only screen and (max-width:808px)
+{
+	.service1 h2 {
+	font-size: 1.6em;
+	}
+}
+@media only screen and (max-width:800px)
+{	
+	#bannerbox
+	{	
+		margin-top:10%;
+	}
+    .otherbanner {
+    width: 100%;
+    margin-top: 10%;
+}
+.my {
+    width: 86%;
+    margin: 1% 0 0 5%;
+}
+.container {
+    position: relative;
+    width: 30%;
+}
+	.gal1 {
+    		
+   		 width:40%;
+		float:left;
+		margin-left:9%;
+	}
+	.photo1 {
+    width: 46%;
+    float: left;
+    margin-left: -1%;
+	}
+	.photo2 {
+    width: 46%;
+    float: left;
+    margin-left:2%;
+	}
+    .abtcontent2 {
+        width: 40%;
+        float: left;
+    }
+	.photo3full
+	{
+		 margin-left:0%;
+	}
+	.photo3full img {
+    width: 111%;
+}
+.amenities1 {
+    width: 65%;
+    float: left;
+    margin-top: 2%;
+    margin-left: -23%;
+}
+textarea
+{
+	width:88%;
+}
+.amenities2 {
+    width: 76%;
+    float: left;
+    margin-top: 2%;
+    margin-left: -20%;
+}
+	.gal2 {
+    		
+    		width:40%;
+		float:left;
+		margin-left: 2%;
+    		
+	}
+    .spotsparastyle {
+    text-align:center;
+    padding-left: 20%;
+padding-right: 20%;
+    }
+	.headingstyle2 {
+		font-size: 1.3em;
+	}
+	.parastyle1 {
+		font-size: 1.3em;
+	}
+	.bottombox h2 {
+    		font-size: 1.2em;
+	}
+	.bottomleft {
+		margin-left: 6%;
+	}
+	.bottommiddle {
+    		width: 22%;
+    		float: left;
+	}
+	.bottomright {
+		margin-left: 7%;
+	}
+	.servicespgbox {
+		margin-top:8%;
+	}
+	.serv1imgbox {
+    margin-bottom: 4%;
+    width: 68%;
+    margin-left: 16%;
+}
+    .serv1content {
+    width: 67%;
+    float: left;
+    margin-top: -2%;
+    margin-left: 16%;
+}
+	.serv2imgbox {
+    margin-bottom: 4%;
+    width: 68%;
+    margin-left: 16%;
+}
+    .serv2content {
+    width: 67%;
+    float: left;
+    margin-top: -2%;
+    margin-left: 16%;
+}
+	
+    .service1 h2 {
+        
+        margin-top: 8%;
+        margin-bottom: 2%;
+        font-size: 1.6em;
+    }
+	.abtimgbox {
+    		width: 30%;
+    		float: left;
+    		margin: 2% 4% 2% 36%;
+	}
+	.enqirybox {
+    		
+    		width: 72%;
+    		margin-left: 19%;
+	}
+	.contactinfo {
+		width: 76%;
+		float: left;
+		margin-top: 6%;
+		margin-left: 24%;
+	}
+	.contactinfo h1 {
+		text-align: center;
+		margin-top: 0%;
+		margin-left: -17%;
+	}
+	.contactinfo p {
+		margin-right: 19%;
+	}
+	.enqirybox h1 {
+		text-align: center;
+		margin-left: -17%;
+	}
+	.txtstyle {
+    		width: 88%;
+	}
+	/*SPOTS PAGE*/
+	
+	.scuba {
+    		width: 44%;
+   		 padding-bottom: 0%;
+    		margin-left: 28%;
+	}
+	.watersports {
+		width: 44%;
+   		 padding-bottom: 0%;
+    		margin-left: 28%;
+		margin-top: 4%;
+	}
+	.boating {
+	width: 44%;
+   		 padding-bottom: 0%;
+    		margin-left: 28%;
+		margin-top: 4%;
+	}
+	.spotsheadingstyle {
+		color: #626564;
+		text-align: center;
+	}
+	.star1 {
+   		 margin-left: 30%;
+    		width: 44%;
+	}	
+	.other1 {
+    		width: 76%;
+    		float: left;
+    		margin-left: 12%;
+	}
+	.other2 {
+    		width: 76%;
+    		float: left;
+    		margin-left: 12%;
+    		margin-top: 2%;
+		}
+    .dolphinbox {
+   margin-bottom:-5%;
+         }
+	.dolphinimgbox {
+    		width: 28%;
+    		float: left;
+	}
+	.dolphinparabox {
+    		width: 55%;
+    		float: right;
+		margin: 2%;
+	}
+    .linebox {
+    display:none;
+}
+    .nature1 {
+    width: 42%;
+    float: left;
+    margin-left: 28%;
+}
+    .iconbox1 {
+    margin-left: 14%;
+    margin-right: 6%;
+}
+    
+}
+@media only screen and (max-width:720px) {
+    .headingstyle1 {
+        font-size: 2em;
+    }
+     .service1 {
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+}
+    .service1 h2 {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 1.4em;
+}
+}
+@media only screen and (max-width:768px)
+{
+	#bannerbox {
+    		margin-top: 10%;
+	}
+	.aboutbox p {
+    	margin: 1% 17% 3% 17%;
+	}
+	/*ABOUT PAGE*/
+	.abtimgbox {
+    	width: 34%;
+    	float: left;
+    	margin: 2% 4% 2% 33%;
+	}
+    .servicespgbox {
+    		margin-top: 0%;
+	}
+}
+@media only screen and (max-width:650px)
+{
+	.bottomright {
+    margin-left: -12%;
+}
+}
+@media only screen and (max-width:700px)
+{
+	.bottomright {
+   margin-left: 33%;
+    width: 55%;
+}
+.bottombox h2 {
+    font-size: 1em;
+}
+.bottommiddle {
+    margin-left: 33%;
+    width: 55%;
+}
+	.bottomleft {
+    margin-left: 33%;
+    width: 55%;
+}
+	
+	.linebox {
+    		width: 45%;
+    		margin-left: 33%;
+    		margin-top: -2%;
+	}
+	.gal1 {
+    		margin-left: 20%;
+width: 65%;
+	}
+	.gal2 {
+    		margin-left: 20%;
+width: 65%;
+	}
+	.service1 {
+    		width: 48%;
+    		float: left;
+    		margin-left: 26%;
+		margin-bottom: 5%;
+	}
+	.ch-grid li {
+		margin-left: 15%;
+		margin-right: 16%;
+		margin-bottom: 6%;
+	}
+.parastyle1 {
+    font-size: 1.3em;
+    padding: 0%;
+}
+	.feature1 {
+    		width: 25%;
+    		float: left;
+    		margin: 3% 2% 3% 38%;
+		}
+	.feature2 {
+    		width: 25%;
+   		 float: left;
+    		margin: 3% 2% 3% 38%;
+	}
+	.feature3 {
+    		width: 25%;
+    		float: left;
+    		margin: 3% 2% 3% 38%;
+    		padding: 0%;
+	}
+}
+@media only screen and (max-width:600px) {
+    .menu {
+        width: 100%;
+        float: left;
+        display: block;
+    }
+
+    #myBtn {
+        font-size: 1em;
+        right: 9px;
+    }
+
+    #bannerbox {
+        display: none;
+        margin-top: 13%;
+    }
+
+    .bannerbox2 {
+        display: block;
+        margin-top: 13%;
+    }
+
+
+    .headingstyle1 {
+        font-size: 1.9em;
+    }
+
+    .aboutbox p {
+        margin: 1% 16% 3% 16%;
+    }
+
+    .service1 {
+        width: 69%;
+        float: left;
+        margin-left: 14%;
+        margin-bottom: 6%;
+    }
+
+    .service2 {
+        width: 60%;
+        float: left;
+        margin-left: 20%;
+    }
+
+    .feature1 {
+        width: 35%;
+        float: left;
+        margin: 3% 2% 3% 32%;
+    }
+
+    .feature2 {
+        width: 35%;
+        float: left;
+        margin: 3% 2% 3% 32%;
+    }
+
+    .feature3 {
+        width: 35%;
+        float: left;
+        margin: 3% 2% 3% 32%;
+    }
+
+    .gallery a {
+        margin-left: 38%;
+    }
+
+    .gal1 {
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .gal2 {
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .ch-grid li {
+        margin-left: 15%;
+        margin-right: 16%;
+        margin-bottom: 6%;
+    }
+
+    .bottomleft {
+        width: 40%;
+        margin-left: 33%;
+        margin-bottom: 2%;
+    }
+
+    .bottommiddle {
+        width: 40%;
+        margin-left: 33%;
+        margin-bottom: 2%;
+    }
+
+    .bottomright {
+        width: 40%;
+        margin-left: 33%;
+        margin-bottom: 3%;
+    }
+
+    .servicespgbox {
+        margin-top: 0%;
+    }
+
+    .otherbanner {
+        width: 100%;
+        margin-top: 13%;
+    }
+
+    .breakfastmeal {
+        width: 68%;
+        float: left;
+        margin-left: 15%;
+        margin-bottom: 2%;
+    }
+
+    .vegmeal {
+        width: 68%;
+        float: left;
+        margin-left: 15%;
+        margin-bottom: 2%;
+    }
+
+    .nonvegmeal {
+        width: 68%;
+        float: left;
+        margin-left: 15%;
+        margin-bottom: 2%;
+    }
+
+    .meals {
+        margin-top: 6%;
+    }
+
+    .tariff {
+        margin-top: 6%;
+    }
+
+
+    .photo1 {
+        width: 87%;
+        float: left;
+        margin-left: 6%;
+    }
+
+    .photo2 {
+        width: 87%;
+        float: left;
+        margin-left: 6%;
+    }
+
+    .photo3full {
+        width: 88%;
+        float: left;
+        margin-left: 5%;
+    }
+
+        .photo3full img {
+            width: 100%;
+        }
+
+    .abtcontent1 {
+        width: 95%;
+        float: left;
+        text-align: center;
+    }
+
+    .whatoffer p {
+        margin: 2% 0% 3% 0%;
+    }
+
+    .abtcontent2 {
+        width: 95%;
+        float: left;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .enqirybox {
+       
+        width: 72%;
+        margin-left: 10%;
+    }
+
+    textarea {
+        width: 110%;
+        margin-top: 1%;
+    }
+
+    .enqirybox h1 {
+        text-align: center;
+        margin-left: 1%;
+    }
+
+    .contactinfo {
+        margin-left: 12%;
+    }
+
+        .contactinfo h1 {
+            text-align: center;
+            margin-top: 0%;
+            margin-left: 0%;
+        }
+
+    .mapsbox h1 {
+        text-align: center;
+    }
+
+    .txtstyle {
+        width: 110%;
+    }
+
+    .copyrightbox {
+        font-size: 1em;
+    }
+
+    .iconbox1 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .dolphinbox {
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+
+    .dolphinimgbox {
+        width: 32%;
+        float: left;
+    }
+
+    .dolphinparabox {
+        width: 51%;
+        float: right;
+        margin: 2%;
+        font-size: 1.1em;
+    }
+
+    .amenities1 {
+        width: 90%;
+        float: left;
+        margin-left: -8%;
+    }
+
+    .amenities2 {
+        width: 90%;
+        float: left;
+        margin-left: -8%;
+    }
+
+    .amenities p {
+        padding-left: 36%;
+    }
+
+    .linebox {
+        width: 45%;
+        margin-left: 25%;
+    }
+
+    .scuba {
+        width: 70%;
+        padding-bottom: 0%;
+        margin-left: 15%;
+    }
+
+    .watersports {
+        width: 70%;
+        padding-bottom: 0%;
+        margin-left: 15%;
+    }
+
+    .boating {
+        width: 70%;
+        padding-bottom: 0%;
+        margin-left: 15%;
+    }
+
+    .nature1 {
+        width: 65%;
+        float: left;
+        margin-left: 18%;
+    }
+
+    .star1 {
+        margin-left: 19%;
+        width: 62%;
+    }
+
+    .star2 {
+        margin-left: 19%;
+        width: 62%;
+    }
+
+    .other1 {
+        width: 100%;
+        float: left;
+        margin-left:0%;
+        margin-bottom: 2%;
+    }
+    .other1imgbox {
+    width: 65%;
+    float: left;
+    margin-left:19%;
+}
+      .other2imgbox {
+    width:65%;
+    float: left;
+    margin-left: 19%;
+}
+    .other1parabox {
+    width: 55%;
+    float: left;
+    margin-left: 21%;
+    text-align:center;
+}
+    .other2parabox {
+    width: 55%;
+    float: left;
+    margin-left: 21%;
+    text-align:center;
+}
+    .other2 {
+        width: 100%;
+        float: left;
+        margin-left: 0%;
+    }
+}
+@media only screen and (max-width:528px) {
+    .headingstyle1 {
+    font-size: 1.6em;
+}
+    .service1 {
+    width: 67%;
+    float: left;
+    margin-left: 16%;
+}
+}
+@media only screen and (max-width:500px) {
+	.bottomleft {
+    width: 40%;
+    margin-left: 31%
+	}
+	.bottommiddle 
+	{
+	margin-left: 31%
+	}
+	.bottomright {
+		margin-left: 31%
+	}
+}
+@media only screen and (max-width:480px) {
+    #bannerbox {
+        margin-top: 17%;
+    }
+
+    .aboutbox p {
+        margin: 1% 16% 3% 16%;
+        line-height: 32px;
+font-size: 1.2em;
+    }
+
+    .headingstyle1 {
+        font-size: 1.9em;
+        line-height: 40px;
+    }
+     .serv1content h3 {
+    
+    text-align: center;
+}
+    .serv1content p {
+    font-size: 1.08em;
+    text-align: center;
+}
+    .serv2content h3 {
+    
+    text-align: center;
+}
+    .serv2content p {
+    font-size: 1.08em;
+    text-align: center;
+}
+    .spotsparastyle {
+    text-align:center;
+    padding-left: 12%;
+padding-right: 10%;
+    }
+    .star h2 {
+        text-align:center;
+    }
+    .subbb {
+       text-align:center;
+    }
+    .activitiesparastyle {
+         text-align: center;
+    }
+    .service1 {
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+    }
+
+    .service2 {
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+    }
+
+    .gal1 {
+        margin-left: 15%;
+    }
+
+    .gal2 {
+        margin-left: 15%;
+    }
+
+    .feature1 {
+        width: 50%;
+        float: left;
+        margin: 3% 2% 3% 26%;
+    }
+
+    .feature2 {
+        width: 50%;
+        float: left;
+        margin: 3% 2% 3% 26%;
+    }
+
+    .feature3 {
+        width: 50%;
+        float: left;
+        margin: 3% 2% 3% 26%;
+    }
+
+    .headingstyle1 {
+        padding: 0 3%;
+    }
+
+    .headingstyle2 {
+        font-size: 1.9em;
+    }
+
+    .headingstyle2 {
+        font-size: 1.9em;
+    }
+
+    .parastyle1 {
+        margin: 1% 0% 3% 0%;
+    }
+
+    .servicespgbox {
+        margin-top: 1%;
+    }
+
+   .otherbanner {
+    width: 100%;
+    margin-top: 17%;
+}
+    .tariffcontent p {
+        margin-right: 7%;
+    }
+
+    .nonvegmeal {
+        width: 70%;
+        float: left;
+        margin-left: 15%;
+    }
+
+    .vegmeal {
+        width: 70%;
+        float: left;
+        margin-left: 15%;
+    }
+
+    .breakfastmeal {
+        width: 70%;
+        float: left;
+        margin-left: 15%;
+    }
+
+    th {
+        font-size: 1.32em;
+    }
+
+    .bottomleft {
+        width: 68%;
+        margin-left: 22%;
+    }
+
+    .bottommiddle {
+        width: 68%;
+        margin-left: 22%;
+    }
+
+    .bottomright {
+        width: 68%;
+        margin-left: 22%;
+    }
+
+    .abtpg {
+        margin-top: 1%;
+    }
+
+    .amenities1 {
+        width: 63%;
+        float: left;
+        margin-left:22%;
+      
+    }
+    .abtcontent1 {
+    font-size:1.2em;
+    }
+    .whatoffer p {
+    margin: 2% 0% 3% 0%;
+    font-size: 1.2em;
+}
+    .abtcontent2 {
+    font-size:1.2em;
+    }
+    .amenities p {
+        padding: 0%;
+          font-size: 1.2em;
+    }
+
+    .amenities2 {
+        width: 63%;
+        float: left;
+        margin-left: 22%;
+      
+    }
+
+    .photo1 {
+        width: 90%;
+        float: left;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+    .photo2 {
+        width: 90%;
+        float: left;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+   .photo3full {
+    width: 92%;
+    float: left;
+    margin-left: 3%;
+}
+    .photogallery h3 {
+        
+        font-size: 1.2em;
+    }
+
+    .contactinfo {
+        margin-left:6%;
+        width: 80%;
+    }
+	.contactinfo h1 {
+    text-align:center
+	}
+	.mapsbox h1 {
+    text-align:center;
+}
+	.enqirybox {
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 6%;
+}
+        .contactinfo p {
+            margin-right: 6%;
+        }
+
+   
+
+    .rail1 {
+        margin-top: 6%;
+    }
+
+    .road1 {
+        margin-top: 6%;
+    }
+
+    .locationcontent1 {
+        width: 63%;
+        float: left;
+        margin-left: 17%;
+        text-align: center;
+    }
+
+    .locationheadingstyle1 {
+        font-family: Nunito;
+        font-size: 1.4em;
+    }
+
+    .locationparastyle1 {
+        font-family: Nunito;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .iconbox1 {
+        width: 50%;
+        margin-left: 42%;
+    }
+
+    .other1imgbox {
+        width: 64%;
+        float: left;
+        margin-left: 18%;
+    }
+
+    .other2imgbox {
+        width: 64%;
+        float: left;
+        margin-left: 18%;
+    }
+
+    .other1parabox {
+       
+    width: 64%;
+    float: left;
+    margin-left: 17%;
+        margin-bottom: 8%;
+    }
+
+    .other2parabox {
+        width: 64%;
+    float: left;
+    margin-left: 17%;
+        margin-bottom: 8%;
+    }
+
+    .dolphinimgbox {
+        width: 47%;
+        float: left;
+        margin-left: 26%;
+    }
+
+    .dolphinparabox {
+        width: 71%;
+        float: left;
+        margin-left: 15%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+   
+
+    .starheading {
+        font-size: 1.5em;
+    }
+
+    .linebox {
+        width: 45%;
+        margin-left: 25%;
+    }
+}
+
+    @media only screen and (max-width:430px) {
+        .tariff table {
+            display: none;
+        }
+
+        .table2 {
+            width: 100%;
+            display: block;
+            font-family: Nunito;
+            font-size: 1.4em;
+        }
+
+            .table2 p {
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+    }
+
+    @media only screen and (max-width:360px) {
+        #bannerbox {
+            margin-top: 22%;
+        }
+		.service1 {
+    width: 71%;
+    float: left;
+    margin-left: 15%;
+}
+        .service1 p {
+            font-size: 1.4em;
+        }
+
+        .service2 p {
+            font-size: 1.4em;
+        }
+
+        .gal1 {
+            margin-left: 15%;
+        }
+
+            .gal1 img {
+                width: 100%;
+            }
+
+        .gal2 {
+            margin-left: 15%;
+        }
+
+            .gal2 img {
+                width: 100%;
+            }
+
+        .servicespgbox {
+            margin-top: 1%;
+        }
+
+      .otherbanner {
+    width: 100%;
+    margin-top: 22%;
+}
+      .serv1imgbox {
+    margin-bottom: 4%;
+    width: 78%;
+    margin-left: 11%;
+}
+      .serv1content {
+    width: 78%;
+    float: left;
+    margin-top: -2%;
+    margin-left: 12%;
+}
+        .table2 {
+        font-size:1.08em;
+        }
+      .serv2content {
+    width: 78%;
+    float: left;
+    margin-top: -2%;
+    margin-left: 12%;
+}
+      .serv2imgbox {
+    margin-bottom: 4%;
+    width: 78%;
+    margin-left: 11%;
+}
+        
+
+        .tariff table {
+            margin-left: 12%;
+        }
+
+        .tariffcontent p {
+            margin-right: 7%;
+            margin-left: 14%;
+            margin-top: 2%;
+            text-align: left;
+        }
+
+        .breakfastmeal {
+            width: 86%;
+            float: left;
+            margin-left: 6%;
+        }
+
+        .vegmeal {
+            width: 86%;
+            float: left;
+            margin-left: 6%;
+        }
+
+        .nonvegmeal {
+            width: 86%;
+            float: left;
+            margin-left: 6%;
+        }
+
+        #myBtn {
+            font-size: 0.5em;
+        }
+
+        .whatoffer {
+  
+    margin-top: 5%;
+}
+
+        .abtimgbox {
+            width: 58%;
+            float: left;
+            margin: 2% 4% 2% 22%;
+        }
+
+        .amenities1 {
+            width: 63%;
+            float: left;
+            margin-left: 21%;
+        }
+
+        .amenities p {
+            padding: 0%;
+        }
+
+        .amenities2 {
+            width: 70%;
+            float: left;
+            margin-left: 21%;
+        }
+
+        .photo1 {
+           width: 90%;
+float: left;
+margin-left: 4%;
+margin-top: 2%;
+        }
+
+        .copyrightbox {
+            font-size: 0.8em;
+            margin-top: 7%;
+        }
+
+        .bottomleft {
+            margin-left: 13%;
+        }
+
+        .bottommiddle {
+            margin-left: 13%;
+        }
+
+        .bottomright {
+            margin-left: 13%;
+        }
+
+        .abtpgcontent p {
+            line-height: 32px;
+            font-size: 1.2em;
+        }
+
+        .enqirybox {
+            margin-top:0%;
+            width: 80%;
+            margin-left: 6%;
+        }
+
+            .enqirybox h1 {
+                font-size:1.9em;
+            }
+
+        .contactinfo h1 {
+            margin-left: -4%;
+            font-size:1.9em;
+        }
+
+        .mapsbox h1 {
+            font-size: 1.9em;
+        }
+
+       .btnstyle {
+    width: 36%;
+}
+        iframe {
+            width: 100%;
+            height: 310px;
+        }
+
+    
+
+        .linebox {
+            width: 45%;
+            margin-left:9%;
+            margin-top: -3%;
+        }
+    }
+ @media only screen and (max-width:358px) {
+
+	
+	.gal1 {
+    margin-left: 15%;
+}
+.gal1 img {
+   width:100%;
+}
+.gal2 {
+    margin-left:15%;
+}
+.gal2 img {
+   width:100%;
+}
+ }
+    @media only screen and (max-width:320px) {
+
+        #bannerbox {
+            margin-top: 25%;
+        }
+		.bannerbox2 {
+    display: block;
+    margin-top: 25%;
+}
+        .otherbanner {
+    width: 100%;
+    margin-top: 25%;
+}
+        .bottomright {
+            margin-left: 9%;
+        }
+
+        .bottommiddle {
+            margin-left: 9%;
+        }
+
+        .bottomleft {
+            margin-left: 8%;
+        }
+
+        .copyrightbox {
+            width: 80%;
+            float: left;
+            text-align: left;
+            font-size: 1.2em;
+            margin-top: 4%;
+            margin-left: 15%;
+         
+        }
+
+        #myBtn {
+            font-size: 1em;
+            right: 4px;
+        }
+
+        .servicespgbox {
+            margin-top:1%;
+        }
+
+       .enqirybox h1 {
+                font-size:1.7em;
+            }
+
+        .contactinfo h1 {
+            margin-left: -4%;
+            font-size:1.7em;
+        }
+
+        .mapsbox h1 {
+            font-size: 1.7em;
+        }
+
+        .amenities1 {
+            margin-left: 13%;
+        }
+
+        .amenities2 {
+            margin-left: 13%;
+        }
+
+        .scuba {
+    width: 80%;
+    padding-bottom: 0%;
+    margin-left: 10%;
+}
+        .watersports {
+            width: 80%;
+    padding-bottom: 0%;
+    margin-left: 10%;
+        }
+        .boating {
+         width: 80%;
+    padding-bottom: 0%;
+    margin-left: 10%;
+        }
+
+        .spotsparastyle {
+            padding-left: 8%;
+padding-right: 8%;
+        }
+        .other1imgbox {
+    width: 80%;
+    float: left;
+    margin-left: 11%;
+}
+        .other2imgbox {
+    width: 80%;
+    float: left;
+    margin-left: 11%;
+}
+        .nature1 {
+    width: 80%;
+    float: left;
+    margin-left: 11%;
+}
+        .star1 {
+    margin-left: 11%;
+    width: 80%;
+}
+        .linebox {
+            width: 45%;
+            margin-left:4%;
+        }
+        .headingstyle1 {
+    font-size: 1.4em;
+    line-height: 40px;
+}
+		.gal1 {
+    margin-left: 7%;
+    width: 82%;
+}
+.gal1 img
+{
+	width:100%;
+}
+.gal2 img
+{
+	width:100%;
+}
+.gallery1 {
+    
+    margin-bottom: 6%;
+}
+.gallery a {
+    margin-left: 28%;
+}
+.gal2{
+    margin-left: 7%;
+    width: 82%;
+}
+    }
+
